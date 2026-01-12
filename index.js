@@ -43,13 +43,3 @@ function newGame(){
     numberOnScreen = 0
     numberSecScreen = 0
 }
-
-let winnerPlayer = documnet.getElementById("win")
-if(numberVal == 60 || numberOnScreen == 60){
-    winnerPlayer.innerHtml = "Player One Wins"
-} else if(numVal == 60){
-     winnerPlayer.innerHtml = "Player Two Wins"
-}
-
-
-
